@@ -37,3 +37,6 @@ function Menu() {
 export default Menu
  
 // rfce for function components
+//imrr for router properties
+//imbrl for navlink
+//
