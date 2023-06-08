@@ -38,17 +38,17 @@ function Ex3(props) {
     setItemOffset(newOffset)
   }
 
-  if(!products)
-  return(
+  // if(!products)
+  // return(
 
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-        <h5 className="text-success text-center">Error</h5>
-        </div>
-      </div>
-    </div>
-  )
+  //   <div className="container">
+  //     <div className="row">
+  //       <div className="col-md-12">
+  //       <h5 className="text-success text-center">Error</h5>
+  //       </div>
+  //     </div>
+  //   </div>
+  // )
 
 
 
