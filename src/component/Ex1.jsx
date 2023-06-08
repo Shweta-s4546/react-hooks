@@ -35,7 +35,7 @@ return (
       <h3 className="text-warning">Title = { title }</h3>
       <h3 className="text-warning"> Name = { user.name }</h3>
       <h3 className="text-warning"> Email = { user.email }</h3>
-      <h3 className="text-warning"> IsView = {isView ? true : false}</h3>
+      <h3 className="text-warning"> IsView = {isView ? "true" : "false"}</h3>
       <h3 className="text-warning"> Colors = { 
             colors.map((item,index) => {
               return(
