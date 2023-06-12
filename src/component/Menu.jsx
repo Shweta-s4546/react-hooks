@@ -31,6 +31,12 @@ function Menu() {
                         <li className="nav-item">
                             <NavLink to={`/ex6`} className="nav-link">Ex6</NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink to={`/ex7`} className="nav-link">Ex7</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to={`/ex8`} className="nav-link">Ex8</NavLink>
+                        </li>
                     </ul>
 
                 </div>

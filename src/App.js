@@ -8,6 +8,8 @@ import Ex4 from './component/Ex4'
 import Pnf from './component/Pnf'
 import Ex5 from './component/Ex5'
 import Ex6 from './component/Ex6'
+import Ex7 from './component/Ex7'
+import Ex8 from './component/Ex8'
 
 function App(props){
   return(
@@ -21,6 +23,8 @@ function App(props){
               <Route path={`/ex4`} element={ <Ex4/> }/>
               <Route path={`/ex5`} element={ <Ex5/> }/>
               <Route path={`/ex6`} element={<Ex6/>}/>
+              <Route path={`/ex7`} element={<Ex7/>}/>
+              <Route path={`/ex8`} element={<Ex8/>}/>
               <Route path={`/*`} element={ <Pnf/>}/>
 
               
